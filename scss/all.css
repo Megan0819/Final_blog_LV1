@@ -68,6 +68,7 @@ table {
   width: 100%;
   border-bottom: 1px gray solid;
 }
+
 @media (max-width: 767px) {
   .container {
     width: 100%;
@@ -113,6 +114,7 @@ table {
   gap: 16px;
   padding: 80px 120px 80px 0px;
 }
+
 @media (max-width: 767px) {
   .main {
     width: 100%;
@@ -123,22 +125,13 @@ table {
     width: 100%;
   }
   .main .mainsection {
-    padding: 48px 12px;
+    padding: 56px 16px;
     width: 100%;
   }
 }
 @media (max-width: 375px) {
-  .main {
-    width: 100%;
-    flex-direction: column;
-    gap: 0px;
-  }
-  .main img {
-    width: 100%;
-  }
   .main .mainsection {
     padding: 48px 12px;
-    width: 100%;
   }
 }
 p {
@@ -263,9 +256,9 @@ h6 {
   background-color: #EDEDED;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 767px) {
   .content {
-    padding: 64px 12px;
+    padding: 76px 20px;
     width: 100%;
   }
   .content .section {
@@ -273,6 +266,11 @@ h6 {
   }
   .content .section-07 {
     width: 100%;
+  }
+}
+@media (max-width: 375px) {
+  .content {
+    padding: 64px 12px;
   }
 }
 .footer {
@@ -293,7 +291,7 @@ h6 {
   gap: 4px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 767px) {
   .footer {
     display: none;
   }
@@ -307,7 +305,7 @@ h6 {
   text-decoration: none;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 767px) {
   .right {
     width: 100%;
   }
